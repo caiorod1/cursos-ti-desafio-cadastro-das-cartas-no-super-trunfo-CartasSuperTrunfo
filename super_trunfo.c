@@ -8,9 +8,9 @@ int main(){
     char codigo2[] = "01"; //codigo da segunda cidade
     char nome[50]; // nome para primeira cidade
     char nome2 [20]; //nome para segunda cidade
-    double populacao, populacao2; // população da cidade
+    int populacao, populacao2; // população da cidade
     float area, area2;  // area da cidade
-    double PIB, PIB2; //PIB da cidade 
+    float PIB, PIB2; //PIB da cidade 
     int turistico, turistico2; // pontos turisticos da cidade
     char estado = 'A';
     char estado2 = 'B';
@@ -23,18 +23,18 @@ printf("Insira o nome da primeira cidade: ");
 scanf("%s", &nome);
 
 printf("Insira a população da cidade: ");
-scanf("%lf", &populacao);
+scanf("%d", &populacao);
 
 printf("Insira a área da cidade: ");
 scanf("%f", &area);
 
 printf("Insira o PIB: ");
-scanf("%lf", &PIB);
+scanf("%f", &PIB);
 
 printf("Existem quantos pontos turisticos na cidade: ");
 scanf("%d", &turistico);
 
-printf("\nAgora vamos cadastrar a Carta 2\n");
+printf("Agora vamos cadastrar a Carta 2\n");
 
 printf("Coloque algumas informações da carta 2: Nome da cidade, população, área, PIB e número de pontos turísticos.\n");
 
@@ -42,13 +42,13 @@ printf("Insira o nome da segunda cidade: ");
 scanf("%s", &nome2);
 
 printf("Insira a população da cidade: ");
-scanf("%lf", &populacao2);
+scanf("%d", &populacao2);
 
 printf("Insira a área da cidade: ");
 scanf("%f", &area2);
 
 printf("Insira o PIB: ");
-scanf("%lf", &PIB2);
+scanf("%f", &PIB2);
 
 printf("Existem quantos pontos turisticos na cidade: ");
 scanf("%d", &turistico2);
@@ -59,9 +59,9 @@ printf("\nCARTA 1: \n");
 printf("\tEstado: %c\n", estado);
 printf("\tCódigo: %c%s\n", estado, codigo);
 printf("\tNome da cidade: %s\n", nome);
-printf("\tPopulação: %.0lf\n", populacao);
+printf("\tPopulação: %d\n", populacao);
 printf("\tÁrea: %.2f km²\n", area);
-printf("\tPIB: %.2lf bilhões\n", PIB);
+printf("\tPIB: %.2f bilhões\n", PIB);
 printf("\tPontos turisticos: %d\n", turistico);
 
 
@@ -69,9 +69,9 @@ printf("\nCARTA 2: \n");
 printf("\tEstado: %c\n", estado2);
 printf("\tCódigo: %c%s\n", estado2, codigo2);
 printf("\tNome da cidade: %s\n", nome2);
-printf("\tPopulação: %.0lf\n", populacao2);
+printf("\tPopulação: %d\n", populacao2);
 printf("\tÁrea: %.2f km²\n", area2);
-printf("\tPIB: %.2lf bilhões\n", PIB2);
+printf("\tPIB: %.2f bilhões\n", PIB2);
 printf("\tPontos turisticos: %d\n", turistico2);
 
 
