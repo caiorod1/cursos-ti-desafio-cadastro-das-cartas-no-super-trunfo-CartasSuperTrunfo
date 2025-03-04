@@ -109,7 +109,7 @@ int main(){
     printf("A maior área é a : Carta %d \n", area > area2);
     printf("O maior PIB é a: Carta %d \n", PIB > PIB2);
     printf("A maior quantidade de pontos turistico é a: Carta %d \n", turistico > turistico2);
-    printf("Densindade polacional: Carta %d \n", densidade_populacional < densidade_populacional);
+    printf("Densindade populacional: Carta %d \n", densidade_populacional < densidade_populacional2);
     printf("Maior Pib per Capita é a: Carta %d \n", pib_percapita > pib_percapita2);
     printf("Maior Super poder é a: Carta %d \n", super_poder1 > super_poder2);
 
